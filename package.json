@@ -1,11 +1,11 @@
 {
-  "name": "git-repo-creator",
+  "name": "dragonix",
   "version": "1.0.2",
-  "description": "Create git repositories from the terminal. 🕹️",
+  "description": "Network Diagnostics CLI Tool. 🕹️",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "start:dev": "nodemon src/example.ts",
+    "start:dev": "nodemon src/index.ts",
     "build": "tsc",
     "test": "npx playwright test --reporter=null"
   },
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:AdiPat/git-repo-creator.git"
+    "url": "git+ssh://git@github.com:AdiPat/dragonix.git"
   },
   "keywords": [
     "tools",

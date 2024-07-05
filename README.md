@@ -1,2 +1,3 @@
-# git-repo-creator
-Create git repositories from the terminal. 
+# dragonix 🕹️
+
+A network diagnostics CLI tool!
