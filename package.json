@@ -1,0 +1,41 @@
+{
+  "name": "git-repo-creator",
+  "version": "1.0.2",
+  "description": "Create git repositories from the terminal. 🕹️",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "nodemon src/example.ts",
+    "build": "tsc",
+    "test": "npx playwright test --reporter=null"
+  },
+  "bin": {
+    "git-repo-creator": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:AdiPat/git-repo-creator.git"
+  },
+  "keywords": [
+    "tools",
+    "git",
+    "version control"
+  ],
+  "author": "Aditya Patange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdiPat/git-repo-creator.git/issues"
+  },
+  "homepage": "https://github.com/AdiPat/git-repo-creator.git#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "@types/puppeteer": "^7.0.4",
+    "nodemon": "^3.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "puppeteer": "^22.10.0"
+  }
+}
